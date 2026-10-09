@@ -1,25 +1,25 @@
 {
  "bundle": {
-  "created": "2026-10-09T18:22:43+02:00",
-  "sha12": "7d15379505d1",
-  "source_commit": "cd6fc4c76b36"
+  "created": "2026-10-09T21:35:05+02:00",
+  "sha12": "a37520af0a35",
+  "source_commit": "04af432237d2"
  },
  "chain": {
-  "hash12": "383cff0e86c7",
-  "seq": 20781,
-  "tm_entries": 3253,
-  "translations": 16713
+  "hash12": "8f5b16d10d9f",
+  "seq": 21508,
+  "tm_entries": 3342,
+  "translations": 17247
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_logged": 339.2501,
-  "list_price_usd_total": 232.9674,
+  "list_price_usd_logged": 340.9803,
+  "list_price_usd_total": 234.6976,
   "price_basis": "output-includes-thinking@2",
-  "runs": 5
+  "runs": 6
  },
  "findings": {
-  "translation-invalid": 791,
-  "translation-structure": 19
+  "translation-invalid": 892,
+  "translation-structure": 21
  },
  "last_runs": [
   {
@@ -152,86 +152,107 @@
     "thinking": 80887
    },
    "translated": 13455
+  },
+  {
+   "calls": 89,
+   "ended": "2026-10-09T19:43:57Z",
+   "findings": 103,
+   "list_price_usd": 1.730172,
+   "models_usage": {
+    "gemini-3.8-flash-low": {
+     "calls": 89,
+     "output": 180163,
+     "usd": 1.730172
+    }
+   },
+   "price_basis": "output-includes-thinking@2",
+   "profiles": {
+    "leo": 89
+   },
+   "run": "gh-37981715980-1",
+   "stop": "done",
+   "tokens": {
+    "cached": 481956,
+    "input": 1357886,
+    "output": 180163,
+    "thinking": 99596
+   },
+   "translated": 534
   }
  ],
  "plan": {
   "by_lang": {
    "ar": {
-    "done": 918,
-    "planned": 1412,
-    "rejected": 494
+    "done": 479,
+    "planned": 494,
+    "rejected": 15
    },
    "en": {
-    "done": 1388,
-    "planned": 1403,
-    "rejected": 15
+    "done": 15,
+    "planned": 15,
+    "rejected": 0
    },
    "es": {
-    "done": 1394,
-    "planned": 1411,
-    "rejected": 17
+    "done": 4,
+    "planned": 17,
+    "rejected": 13
    },
    "fr": {
-    "done": 1395,
-    "planned": 1410,
-    "rejected": 15
+    "done": 4,
+    "planned": 15,
+    "rejected": 11
    },
    "hi": {
-    "done": 1391,
-    "planned": 1406,
-    "rejected": 15
+    "done": 3,
+    "planned": 15,
+    "rejected": 12
    },
    "ko": {
-    "done": 1392,
-    "planned": 1408,
-    "rejected": 16
+    "done": 3,
+    "planned": 16,
+    "rejected": 13
    },
    "nl": {
-    "done": 1505,
-    "planned": 1521,
-    "rejected": 16
+    "done": 4,
+    "planned": 16,
+    "rejected": 12
    },
    "pt": {
-    "done": 1395,
-    "planned": 1410,
-    "rejected": 15
+    "done": 2,
+    "planned": 15,
+    "rejected": 13
    },
    "ru": {
-    "done": 1397,
-    "planned": 1412,
-    "rejected": 15
+    "done": 3,
+    "planned": 15,
+    "rejected": 12
    },
    "zh": {
-    "done": 1428,
-    "planned": 1447,
-    "rejected": 19
+    "done": 17,
+    "planned": 19,
+    "rejected": 2
    }
   },
   "by_tier": {
    "api": {
-    "done": 1586,
-    "planned": 1614,
-    "rejected": 28
+    "done": 8,
+    "planned": 28,
+    "rejected": 20
    },
    "element": {
-    "done": 11941,
-    "planned": 12550,
-    "rejected": 609
-   },
-   "guide": {
-    "done": 76,
-    "planned": 76,
-    "rejected": 0
+    "done": 526,
+    "planned": 609,
+    "rejected": 83
    }
   },
-  "done": 14240,
+  "done": 637,
   "progress": 1.0,
   "remaining": 0,
-  "total": 14240
+  "total": 637
  },
  "profiles": {
   "leo": {
-   "cooldown_until": "2026-10-09T18:28:09Z",
+   "cooldown_until": null,
    "needs_login": false
   },
   "neo": {
@@ -240,5 +261,5 @@
   }
  },
  "schema": "live-translation-status@v1",
- "updated": "2026-10-09T17:15:59Z"
+ "updated": "2026-10-09T19:43:57Z"
 }
