@@ -1,19 +1,21 @@
 {
  "bundle": {
-  "created": "2026-10-09T15:20:26+02:00",
-  "sha12": "6a315673c919",
-  "source_commit": "943e7ba47af4"
+  "created": "2026-10-09T18:22:43+02:00",
+  "sha12": "7d15379505d1",
+  "source_commit": "cd6fc4c76b36"
  },
  "chain": {
-  "hash12": "7eb2e6fb68e6",
-  "seq": 5365,
-  "tm_entries": 2079,
-  "translations": 3110
+  "hash12": "664047b157a8",
+  "seq": 5524,
+  "tm_entries": 2089,
+  "translations": 3258
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 286.7231,
-  "runs": 3
+  "list_price_usd_logged": 287.141,
+  "list_price_usd_total": 180.8583,
+  "price_basis": "output-includes-thinking@2",
+  "runs": 4
  },
  "findings": {
   "translation-invalid": 156,
@@ -32,11 +34,18 @@
      "usd": 2.491735
     }
    },
+   "price_basis": null,
    "profiles": {
     "leo": 3
    },
    "run": "gh-37937008113-1",
    "stop": "budget-calls",
+   "tokens": {
+    "cached": 84625,
+    "input": 150229,
+    "output": 108724,
+    "thinking": 72472
+   },
    "translated": 3
   },
   {
@@ -51,11 +60,18 @@
      "usd": 0.727407
     }
    },
+   "price_basis": null,
    "profiles": {
     "leo": 3
    },
    "run": "gh-37938504311-1",
    "stop": "budget-calls",
+   "tokens": {
+    "cached": 43251,
+    "input": 127356,
+    "output": 105235,
+    "thinking": 62404
+   },
    "translated": 6
   },
   {
@@ -70,89 +86,122 @@
      "usd": 283.504008
     }
    },
+   "price_basis": null,
    "profiles": {
     "leo": 1896,
     "neo": 304
    },
    "run": "gh-37940217154-1",
    "stop": "budget-calls",
+   "tokens": {
+    "cached": 17485919,
+    "input": 45029357,
+    "output": 38197740,
+    "thinking": 28047739
+   },
    "translated": 3101
+  },
+  {
+   "calls": 10,
+   "ended": "2026-10-09T16:42:57Z",
+   "findings": 0,
+   "list_price_usd": 0.417896,
+   "models_usage": {
+    "gemini-3.8-flash-low": {
+     "calls": 10,
+     "output": 66236,
+     "usd": 0.417896
+    }
+   },
+   "price_basis": "output-includes-thinking@2",
+   "profiles": {
+    "neo": 10
+   },
+   "run": "gh-37959212657-1",
+   "stop": "budget-calls",
+   "tokens": {
+    "cached": 32632,
+    "input": 222751,
+    "output": 66236,
+    "thinking": 0
+   },
+   "translated": 148
   }
  ],
  "plan": {
   "by_lang": {
    "ar": {
-    "done": 323,
-    "planned": 1735,
-    "rejected": 14
+    "done": 0,
+    "planned": 1412,
+    "rejected": 0
    },
    "en": {
-    "done": 332,
-    "planned": 1735,
-    "rejected": 5
+    "done": 148,
+    "planned": 1403,
+    "rejected": 0
    },
    "es": {
-    "done": 324,
-    "planned": 1735,
-    "rejected": 13
+    "done": 0,
+    "planned": 1411,
+    "rejected": 0
    },
    "fr": {
-    "done": 325,
-    "planned": 1735,
-    "rejected": 12
+    "done": 0,
+    "planned": 1410,
+    "rejected": 0
    },
    "hi": {
-    "done": 329,
-    "planned": 1735,
-    "rejected": 8
+    "done": 0,
+    "planned": 1406,
+    "rejected": 0
    },
    "ko": {
-    "done": 327,
-    "planned": 1735,
-    "rejected": 10
+    "done": 0,
+    "planned": 1408,
+    "rejected": 0
    },
    "nl": {
-    "done": 214,
-    "planned": 1735,
-    "rejected": 68
+    "done": 0,
+    "planned": 1521,
+    "rejected": 0
    },
    "pt": {
-    "done": 325,
-    "planned": 1735,
-    "rejected": 12
+    "done": 0,
+    "planned": 1410,
+    "rejected": 0
    },
    "ru": {
-    "done": 323,
-    "planned": 1735,
-    "rejected": 14
+    "done": 0,
+    "planned": 1412,
+    "rejected": 0
    },
    "zh": {
-    "done": 288,
-    "planned": 1735,
-    "rejected": 17
+    "done": 0,
+    "planned": 1447,
+    "rejected": 0
    }
   },
   "by_tier": {
    "api": {
-    "done": 2446,
-    "planned": 4060,
-    "rejected": 97
+    "done": 0,
+    "planned": 1614,
+    "rejected": 0
    },
    "element": {
-    "done": 0,
+    "done": 148,
     "planned": 12550,
     "rejected": 0
    },
    "guide": {
-    "done": 664,
-    "planned": 740,
-    "rejected": 76
+    "done": 0,
+    "planned": 76,
+    "rejected": 0
    }
   },
-  "done": 3283,
-  "progress": 0.1892,
-  "remaining": 14067,
-  "total": 17350
+  "done": 148,
+  "progress": 0.0104,
+  "remaining": 14092,
+  "total": 14240
  },
  "profiles": {
   "leo": {
@@ -165,5 +214,5 @@
   }
  },
  "schema": "live-translation-status@v1",
- "updated": "2026-10-09T15:43:18Z"
+ "updated": "2026-10-09T16:42:57Z"
 }
