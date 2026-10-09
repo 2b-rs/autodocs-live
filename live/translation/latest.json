@@ -1,0 +1,15 @@
+{
+ "at": "2026-10-09T13:39:08Z",
+ "basis": "6a315673c919",
+ "chain": "translation",
+ "hash": "351c6a2cf8f616a685a563ddfd69c74f263aca52948fa4ce76d0945d9ff691b3",
+ "hash12": "351c6a2cf8f6",
+ "head_of": 6,
+ "reason": {
+  "kind": "translation",
+  "ref": "gh-37937008113-1"
+ },
+ "schema": "live-pointer@v1",
+ "segment": "log/00000001.jsonl",
+ "seq": 6
+}

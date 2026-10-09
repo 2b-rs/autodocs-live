@@ -1,0 +1,123 @@
+{
+ "bundle": {
+  "created": "2026-10-09T15:20:26+02:00",
+  "sha12": "6a315673c919",
+  "source_commit": "943e7ba47af4"
+ },
+ "chain": {
+  "hash12": "351c6a2cf8f6",
+  "seq": 6,
+  "tm_entries": 2,
+  "translations": 3
+ },
+ "cost": {
+  "currency": "USD, API-Listenpreise",
+  "list_price_usd_total": 2.4917,
+  "runs": 1
+ },
+ "findings": {},
+ "last_runs": [
+  {
+   "calls": 3,
+   "ended": "2026-10-09T13:39:08Z",
+   "findings": 0,
+   "list_price_usd": 2.491735,
+   "models_usage": {
+    "gemini-3.1-pro-high": {
+     "calls": 3,
+     "output": 108724,
+     "usd": 2.491735
+    }
+   },
+   "profiles": {
+    "leo": 3
+   },
+   "run": "gh-37937008113-1",
+   "stop": "budget-calls",
+   "translated": 3
+  }
+ ],
+ "plan": {
+  "by_lang": {
+   "ar": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "en": {
+    "done": 3,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "es": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "fr": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "hi": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "ko": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "nl": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "pt": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "ru": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   },
+   "zh": {
+    "done": 0,
+    "planned": 1735,
+    "rejected": 0
+   }
+  },
+  "by_tier": {
+   "api": {
+    "done": 0,
+    "planned": 4060,
+    "rejected": 0
+   },
+   "element": {
+    "done": 0,
+    "planned": 12550,
+    "rejected": 0
+   },
+   "guide": {
+    "done": 3,
+    "planned": 740,
+    "rejected": 0
+   }
+  },
+  "done": 3,
+  "progress": 0.0002,
+  "remaining": 17347,
+  "total": 17350
+ },
+ "profiles": {
+  "leo": {
+   "cooldown_until": null,
+   "needs_login": false
+  }
+ },
+ "schema": "live-translation-status@v1",
+ "updated": "2026-10-09T13:39:08Z"
+}
