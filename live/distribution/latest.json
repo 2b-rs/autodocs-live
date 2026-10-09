@@ -1,0 +1,15 @@
+{
+ "at": "2026-10-09T11:19:28Z",
+ "basis": "0b89aad30d8b",
+ "chain": "distribution",
+ "hash": "9e1b0ba83c7fe3878ccbc86e76dc3ee754f1132777d0db95c6017f4e7efc7dcf",
+ "hash12": "9e1b0ba83c7f",
+ "head_of": 49,
+ "reason": {
+  "kind": "distribution",
+  "ref": "gh-37922918042-1"
+ },
+ "schema": "live-pointer@v1",
+ "segment": "log/00000001.jsonl",
+ "seq": 49
+}

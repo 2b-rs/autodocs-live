@@ -1,0 +1,64 @@
+{
+ "bundle": {
+  "created": "2026-10-09T12:22:47+02:00",
+  "sha12": "0b89aad30d8b",
+  "source_commit": "e89946d07844"
+ },
+ "chain": {
+  "decisions": 36,
+  "hash12": "9e1b0ba83c7f",
+  "seq": 49
+ },
+ "cost": {
+  "currency": "USD, API-Listenpreise",
+  "list_price_usd_total": 0.1304,
+  "runs": 1
+ },
+ "findings": {
+  "dist-contradiction": 6,
+  "dist-effect-inconsistent": 2,
+  "dist-release-mismatch": 4
+ },
+ "last_runs": [
+  {
+   "calls": 3,
+   "decided": 36,
+   "ended": "2026-10-09T11:19:28Z",
+   "findings": 12,
+   "list_price_usd": 0.13038,
+   "profiles": {
+    "leo": 3
+   },
+   "run": "gh-37922918042-1",
+   "stop": "budget-calls"
+  }
+ ],
+ "plan": {
+  "by_kind": {
+   "element": {
+    "done": 0,
+    "planned": 5462
+   },
+   "figure": {
+    "done": 0,
+    "planned": 10649
+   },
+   "snippet": {
+    "done": 32,
+    "planned": 24573
+   }
+  },
+  "done": 32,
+  "progress": 0.0008,
+  "remaining": 40652,
+  "total": 40684
+ },
+ "profiles": {
+  "leo": {
+   "cooldown_until": null,
+   "needs_login": false
+  }
+ },
+ "schema": "live-status@v1",
+ "updated": "2026-10-09T11:19:28Z"
+}
