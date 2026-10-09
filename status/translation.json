@@ -5,15 +5,15 @@
   "source_commit": "943e7ba47af4"
  },
  "chain": {
-  "hash12": "351c6a2cf8f6",
-  "seq": 6,
-  "tm_entries": 2,
-  "translations": 3
+  "hash12": "ed21b7641b0a",
+  "seq": 16,
+  "tm_entries": 5,
+  "translations": 9
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 2.4917,
-  "runs": 1
+  "list_price_usd_total": 3.2191,
+  "runs": 2
  },
  "findings": {},
  "last_runs": [
@@ -35,6 +35,25 @@
    "run": "gh-37937008113-1",
    "stop": "budget-calls",
    "translated": 3
+  },
+  {
+   "calls": 3,
+   "ended": "2026-10-09T13:42:29Z",
+   "findings": 0,
+   "list_price_usd": 0.727407,
+   "models_usage": {
+    "gemini-3.8-flash-medium": {
+     "calls": 3,
+     "output": 105235,
+     "usd": 0.727407
+    }
+   },
+   "profiles": {
+    "leo": 3
+   },
+   "run": "gh-37938504311-1",
+   "stop": "budget-calls",
+   "translated": 6
   }
  ],
  "plan": {
@@ -45,7 +64,7 @@
     "rejected": 0
    },
    "en": {
-    "done": 3,
+    "done": 9,
     "planned": 1735,
     "rejected": 0
    },
@@ -102,14 +121,14 @@
     "rejected": 0
    },
    "guide": {
-    "done": 3,
+    "done": 9,
     "planned": 740,
     "rejected": 0
    }
   },
-  "done": 3,
-  "progress": 0.0002,
-  "remaining": 17347,
+  "done": 9,
+  "progress": 0.0005,
+  "remaining": 17341,
   "total": 17350
  },
  "profiles": {
@@ -119,5 +138,5 @@
   }
  },
  "schema": "live-translation-status@v1",
- "updated": "2026-10-09T13:39:08Z"
+ "updated": "2026-10-09T13:42:29Z"
 }
