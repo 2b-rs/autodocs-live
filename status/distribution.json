@@ -5,35 +5,23 @@
   "source_commit": "e89946d07844"
  },
  "chain": {
-  "decisions": 38491,
-  "hash12": "2eeca06ec116",
-  "seq": 63664
+  "decisions": 39426,
+  "hash12": "61e57ce2f2b0",
+  "seq": 66910
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 181.8918,
-  "runs": 13
+  "list_price_usd_total": 190.1466,
+  "runs": 14
  },
  "findings": {
-  "dist-contradiction": 692,
+  "dist-contradiction": 694,
   "dist-duplicate-decision": 94,
-  "dist-effect-inconsistent": 6567,
-  "dist-relation-conflict": 3227,
-  "dist-release-mismatch": 14580
+  "dist-effect-inconsistent": 6669,
+  "dist-relation-conflict": 3546,
+  "dist-release-mismatch": 16467
  },
  "last_runs": [
-  {
-   "calls": 297,
-   "decided": 3261,
-   "ended": "2026-10-09T17:45:06Z",
-   "findings": 781,
-   "list_price_usd": 12.40903,
-   "profiles": {
-    "neo": 297
-   },
-   "run": "gh-37965912642-1",
-   "stop": "budget-calls"
-  },
   {
    "calls": 589,
    "decided": 5358,
@@ -142,12 +130,24 @@
    },
    "run": "gh-38008831946-1",
    "stop": "budget-calls"
+  },
+  {
+   "calls": 156,
+   "decided": 935,
+   "ended": "2026-10-10T01:33:11Z",
+   "findings": 2310,
+   "list_price_usd": 8.254855,
+   "profiles": {
+    "leo": 156
+   },
+   "run": "gh-38012991156-1",
+   "stop": "done"
   }
  ],
  "plan": {
   "by_kind": {
    "element": {
-    "done": 4527,
+    "done": 5462,
     "planned": 5462
    },
    "figure": {
@@ -159,9 +159,9 @@
     "planned": 24573
    }
   },
-  "done": 38364,
-  "progress": 0.943,
-  "remaining": 2320,
+  "done": 39299,
+  "progress": 0.966,
+  "remaining": 1385,
   "total": 40684
  },
  "profiles": {
@@ -175,5 +175,5 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-10T00:36:54Z"
+ "updated": "2026-10-10T01:33:11Z"
 }
