@@ -5,51 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 45044,
-  "hash12": "1340f395c191",
-  "seq": 74907
+  "decisions": 45056,
+  "hash12": "a5b7e2262fae",
+  "seq": 74932
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 231.733,
-  "runs": 25
+  "list_price_usd_total": 231.7995,
+  "runs": 26
  },
  "findings": {
   "dist-contradiction": 875,
-  "dist-duplicate-decision": 104,
-  "dist-effect-inconsistent": 7430,
-  "dist-relation-conflict": 4641,
+  "dist-duplicate-decision": 105,
+  "dist-effect-inconsistent": 7433,
+  "dist-relation-conflict": 4649,
   "dist-release-mismatch": 16788
  },
  "last_runs": [
-  {
-   "calls": 8,
-   "completed_by_kind": null,
-   "completed_per_minute": 2.988,
-   "config_key": null,
-   "decided": 20,
-   "elapsed_seconds": 361.498,
-   "elapsed_seconds_by_kind": null,
-   "ended": "2026-10-17T10:30:30Z",
-   "error_diagnostics": {
-    "batch:ValueError": 5
-   },
-   "eta_seconds": null,
-   "failed_batches": 7,
-   "findings": 10,
-   "list_price_usd": 0.036043,
-   "profiles": {
-    "leo": 1
-   },
-   "remaining": 41258,
-   "run": "gh-39024734991-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "stop": "errors",
-   "trigger": null
-  },
   {
    "calls": 1,
    "completed_by_kind": null,
@@ -307,6 +279,44 @@
     "provenance": "dispatcher-declared",
     "scheduled_at": "2026-10-17T16:23:49.780Z"
    }
+  },
+  {
+   "calls": 10,
+   "completed_by_kind": {
+    "element": 0,
+    "figure": 0,
+    "snippet": 9
+   },
+   "completed_per_minute": 0.749,
+   "config_key": "df75dc2439a4ee26",
+   "decided": 12,
+   "elapsed_seconds": 721.385,
+   "elapsed_seconds_by_kind": {
+    "snippet": 720.041
+   },
+   "ended": "2026-10-17T17:36:35Z",
+   "error_diagnostics": {},
+   "eta_seconds": null,
+   "failed_batches": 7,
+   "findings": 12,
+   "list_price_usd": 0.066535,
+   "profiles": {
+    "leo": 1,
+    "neo": 2
+   },
+   "remaining": 35662,
+   "run": "gh-39053575218-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "stop": "errors",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-17T17:23:49.780Z"
+   }
   }
  ],
  "performance": {
@@ -354,7 +364,7 @@
      "sample_count": 0,
      "throughput_per_minute": null
     },
-    "remaining": 18670,
+    "remaining": 18661,
     "scheduled": {
      "eta_seconds": null,
      "range_seconds": null,
@@ -382,13 +392,13 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 5605,
+    "done": 5614,
     "planned": 24275
    }
   },
-  "done": 5605,
-  "progress": 0.1358,
-  "remaining": 35671,
+  "done": 5614,
+  "progress": 0.136,
+  "remaining": 35662,
   "total": 41276
  },
  "profiles": {
@@ -402,7 +412,7 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-17T16:36:35Z",
+ "updated": "2026-10-17T17:36:35Z",
  "worker": {
   "config": {
    "batch": {
@@ -433,9 +443,9 @@
   },
   "last_error": {
    "codes": [],
-   "ended": "2026-10-17T16:36:35Z",
+   "ended": "2026-10-17T17:36:35Z",
    "failed_batches": 7,
-   "run": "gh-39049223302-1",
+   "run": "gh-39053575218-1",
    "stop": "errors"
   },
   "state": "idle",
@@ -443,7 +453,7 @@
    "cadence_seconds": 3600,
    "kind": "scheduled",
    "provenance": "dispatcher-declared",
-   "scheduled_at": "2026-10-17T16:23:49.780Z"
+   "scheduled_at": "2026-10-17T17:23:49.780Z"
   }
  }
 }
