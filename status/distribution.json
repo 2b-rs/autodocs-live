@@ -5,42 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 40980,
-  "hash12": "152a0d14e207",
-  "seq": 69175
+  "decisions": 41987,
+  "hash12": "81a075dba881",
+  "seq": 70763
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 203.7264,
-  "runs": 20
+  "list_price_usd_total": 210.5774,
+  "runs": 21
  },
  "findings": {
-  "dist-contradiction": 806,
-  "dist-duplicate-decision": 96,
-  "dist-effect-inconsistent": 6786,
-  "dist-relation-conflict": 3725,
-  "dist-release-mismatch": 16762
+  "dist-contradiction": 821,
+  "dist-duplicate-decision": 101,
+  "dist-effect-inconsistent": 6870,
+  "dist-relation-conflict": 4181,
+  "dist-release-mismatch": 16782
  },
  "last_runs": [
-  {
-   "calls": 487,
-   "completed_per_minute": null,
-   "decided": 4460,
-   "elapsed_seconds": null,
-   "ended": "2026-10-09T23:11:12Z",
-   "error_diagnostics": null,
-   "eta_seconds": null,
-   "failed_batches": 0,
-   "findings": 882,
-   "list_price_usd": 28.137918,
-   "profiles": {
-    "leo": 487
-   },
-   "remaining": 6521,
-   "run": "gh-38000833415-1",
-   "skipped_units": null,
-   "stop": "budget-time"
-  },
   {
    "calls": 215,
    "completed_per_minute": null,
@@ -228,6 +209,29 @@
     "oversize": 0
    },
    "stop": "budget-calls"
+  },
+  {
+   "calls": 300,
+   "completed_per_minute": 68.721,
+   "decided": 1007,
+   "elapsed_seconds": 879.213,
+   "ended": "2026-10-17T12:39:06Z",
+   "error_diagnostics": {},
+   "eta_seconds": 33809.1,
+   "failed_batches": 4,
+   "findings": 580,
+   "list_price_usd": 6.850961,
+   "profiles": {
+    "leo": 149,
+    "neo": 147
+   },
+   "remaining": 38723,
+   "run": "gh-39032355461-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "stop": "budget-calls"
   }
  ],
  "plan": {
@@ -241,13 +245,13 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 1546,
+    "done": 2553,
     "planned": 24275
    }
   },
-  "done": 1546,
-  "progress": 0.0375,
-  "remaining": 39730,
+  "done": 2553,
+  "progress": 0.0619,
+  "remaining": 38723,
   "total": 41276
  },
  "profiles": {
@@ -261,5 +265,5 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-17T11:27:49Z"
+ "updated": "2026-10-17T12:39:06Z"
 }
