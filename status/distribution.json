@@ -5,43 +5,23 @@
   "source_commit": "947313e4b37f"
  },
  "chain": {
-  "decisions": 39426,
-  "hash12": "89aa807e0357",
-  "seq": 66911
+  "decisions": 39446,
+  "hash12": "21100a991823",
+  "seq": 66942
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 190.1466,
-  "runs": 15
+  "list_price_usd_total": 190.1827,
+  "runs": 16
  },
  "findings": {
-  "dist-contradiction": 694,
+  "dist-contradiction": 695,
   "dist-duplicate-decision": 94,
   "dist-effect-inconsistent": 6669,
-  "dist-relation-conflict": 3546,
+  "dist-relation-conflict": 3555,
   "dist-release-mismatch": 16467
  },
  "last_runs": [
-  {
-   "calls": 286,
-   "completed_per_minute": null,
-   "decided": 2740,
-   "elapsed_seconds": null,
-   "ended": "2026-10-09T18:41:28Z",
-   "error_diagnostics": null,
-   "eta_seconds": null,
-   "failed_batches": 0,
-   "findings": 3789,
-   "list_price_usd": 12.671509,
-   "profiles": {
-    "leo": 217,
-    "neo": 69
-   },
-   "remaining": 20714,
-   "run": "gh-37972926516-1",
-   "skipped_units": null,
-   "stop": "budget-calls"
-  },
   {
    "calls": 283,
    "completed_per_minute": null,
@@ -215,6 +195,30 @@
     "oversize": 0
    },
    "stop": "budget-calls"
+  },
+  {
+   "calls": 8,
+   "completed_per_minute": 2.988,
+   "decided": 20,
+   "elapsed_seconds": 361.498,
+   "ended": "2026-10-17T10:30:30Z",
+   "error_diagnostics": {
+    "batch:ValueError": 5
+   },
+   "eta_seconds": null,
+   "failed_batches": 7,
+   "findings": 10,
+   "list_price_usd": 0.036043,
+   "profiles": {
+    "leo": 1
+   },
+   "remaining": 41258,
+   "run": "gh-39024734991-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "stop": "errors"
   }
  ],
  "plan": {
@@ -228,13 +232,13 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 0,
+    "done": 18,
     "planned": 24275
    }
   },
-  "done": 0,
-  "progress": 0.0,
-  "remaining": 41276,
+  "done": 18,
+  "progress": 0.0004,
+  "remaining": 41258,
   "total": 41276
  },
  "profiles": {
@@ -248,5 +252,5 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-17T09:27:39Z"
+ "updated": "2026-10-17T10:30:30Z"
 }
