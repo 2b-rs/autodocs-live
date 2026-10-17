@@ -1,18 +1,18 @@
 {
  "bundle": {
-  "created": "2026-10-17T09:36:26+02:00",
-  "sha12": "49497d5191f5",
-  "source_commit": "947313e4b37f"
+  "created": "2026-10-17T11:40:55+02:00",
+  "sha12": "4b04f6f35911",
+  "source_commit": "cee99ee2ce79"
  },
  "chain": {
   "decisions": 39446,
-  "hash12": "21100a991823",
-  "seq": 66942
+  "hash12": "58ace4f9bea5",
+  "seq": 66943
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
   "list_price_usd_total": 190.1827,
-  "runs": 16
+  "runs": 17
  },
  "findings": {
   "dist-contradiction": 695,
@@ -22,25 +22,6 @@
   "dist-release-mismatch": 16467
  },
  "last_runs": [
-  {
-   "calls": 283,
-   "completed_per_minute": null,
-   "decided": 2626,
-   "elapsed_seconds": null,
-   "ended": "2026-10-09T19:41:01Z",
-   "error_diagnostics": null,
-   "eta_seconds": null,
-   "failed_batches": 0,
-   "findings": 2141,
-   "list_price_usd": 12.516262,
-   "profiles": {
-    "leo": 283
-   },
-   "remaining": 18107,
-   "run": "gh-37979890146-1",
-   "skipped_units": null,
-   "stop": "budget-calls"
-  },
   {
    "calls": 264,
    "completed_per_minute": null,
@@ -219,6 +200,26 @@
     "oversize": 0
    },
    "stop": "errors"
+  },
+  {
+   "calls": 1,
+   "completed_per_minute": 0.0,
+   "decided": 0,
+   "elapsed_seconds": 360.052,
+   "ended": "2026-10-17T10:41:01Z",
+   "error_diagnostics": {},
+   "eta_seconds": null,
+   "failed_batches": 1,
+   "findings": 0,
+   "list_price_usd": 0.0,
+   "profiles": {},
+   "remaining": 24257,
+   "run": "gh-39025409451-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "stop": "errors"
   }
  ],
  "plan": {
@@ -252,5 +253,5 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-17T10:30:30Z"
+ "updated": "2026-10-17T10:41:01Z"
 }
