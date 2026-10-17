@@ -5,42 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 41987,
-  "hash12": "81a075dba881",
-  "seq": 70763
+  "decisions": 43016,
+  "hash12": "dab16a6822fd",
+  "seq": 72071
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 210.5774,
-  "runs": 21
+  "list_price_usd_total": 217.6645,
+  "runs": 22
  },
  "findings": {
-  "dist-contradiction": 821,
+  "dist-contradiction": 823,
   "dist-duplicate-decision": 101,
-  "dist-effect-inconsistent": 6870,
-  "dist-relation-conflict": 4181,
+  "dist-effect-inconsistent": 7043,
+  "dist-relation-conflict": 4284,
   "dist-release-mismatch": 16782
  },
  "last_runs": [
-  {
-   "calls": 215,
-   "completed_per_minute": null,
-   "decided": 2542,
-   "elapsed_seconds": null,
-   "ended": "2026-10-09T23:39:37Z",
-   "error_diagnostics": null,
-   "eta_seconds": null,
-   "failed_batches": 0,
-   "findings": 3829,
-   "list_price_usd": 10.740692,
-   "profiles": {
-    "leo": 215
-   },
-   "remaining": 3979,
-   "run": "gh-38004170668-1",
-   "skipped_units": null,
-   "stop": "budget-calls"
-  },
   {
    "calls": 215,
    "completed_per_minute": null,
@@ -232,6 +213,29 @@
     "oversize": 0
    },
    "stop": "budget-calls"
+  },
+  {
+   "calls": 300,
+   "completed_per_minute": 38.068,
+   "decided": 1029,
+   "elapsed_seconds": 1620.245,
+   "ended": "2026-10-17T13:51:31Z",
+   "error_diagnostics": {},
+   "eta_seconds": 59411.6,
+   "failed_batches": 9,
+   "findings": 278,
+   "list_price_usd": 7.087154,
+   "profiles": {
+    "leo": 126,
+    "neo": 165
+   },
+   "remaining": 37695,
+   "run": "gh-39036385756-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "stop": "budget-calls"
   }
  ],
  "plan": {
@@ -245,13 +249,13 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 2553,
+    "done": 3581,
     "planned": 24275
    }
   },
-  "done": 2553,
-  "progress": 0.0619,
-  "remaining": 38723,
+  "done": 3581,
+  "progress": 0.0868,
+  "remaining": 37695,
   "total": 41276
  },
  "profiles": {
@@ -265,5 +269,5 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-17T12:39:06Z"
+ "updated": "2026-10-17T13:51:31Z"
 }
