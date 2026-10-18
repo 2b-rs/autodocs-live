@@ -6,13 +6,13 @@
  },
  "chain": {
   "decisions": 47363,
-  "hash12": "20e3a5ce45b1",
-  "seq": 78828
+  "hash12": "81fe25a09f35",
+  "seq": 78829
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
   "list_price_usd_total": 248.0005,
-  "runs": 33
+  "runs": 34
  },
  "findings": {
   "dist-contradiction": 998,
@@ -22,44 +22,6 @@
   "dist-release-mismatch": 16814
  },
  "last_runs": [
-  {
-   "calls": 11,
-   "completed_by_kind": {
-    "element": 0,
-    "figure": 0,
-    "snippet": 14
-   },
-   "completed_per_minute": 1.164,
-   "config_key": "df75dc2439a4ee26",
-   "decided": 16,
-   "elapsed_seconds": 721.46,
-   "elapsed_seconds_by_kind": {
-    "snippet": 720.053
-   },
-   "ended": "2026-10-17T15:36:32Z",
-   "error_diagnostics": {},
-   "eta_seconds": null,
-   "failed_batches": 7,
-   "findings": 13,
-   "list_price_usd": 0.087559,
-   "profiles": {
-    "leo": 1,
-    "neo": 3
-   },
-   "remaining": 35681,
-   "run": "gh-39044862770-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "stop": "errors",
-   "trigger": {
-    "cadence_seconds": null,
-    "kind": "requested",
-    "provenance": "github-event",
-    "scheduled_at": null
-   }
-  },
   {
    "calls": 10,
    "completed_by_kind": {
@@ -401,6 +363,41 @@
     "provenance": "dispatcher-declared",
     "scheduled_at": "2026-10-17T23:23:49.780Z"
    }
+  },
+  {
+   "calls": 6,
+   "completed_by_kind": {
+    "element": 0,
+    "figure": 0,
+    "snippet": 0
+   },
+   "completed_per_minute": 0.0,
+   "config_key": "e1a7dc2a567c23b9",
+   "decided": 0,
+   "elapsed_seconds": 1080.08,
+   "elapsed_seconds_by_kind": {
+    "snippet": 1080.041
+   },
+   "ended": "2026-10-18T00:42:34Z",
+   "error_diagnostics": {},
+   "eta_seconds": null,
+   "failed_batches": 6,
+   "findings": 0,
+   "list_price_usd": 0.0,
+   "profiles": {},
+   "remaining": 33358,
+   "run": "gh-39082604060-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "stop": "errors",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-18T00:23:49.780Z"
+   }
   }
  ],
  "performance": {
@@ -496,7 +493,7 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-17T23:53:16Z",
+ "updated": "2026-10-18T00:42:35Z",
  "worker": {
   "config": {
    "batch": {
@@ -527,17 +524,17 @@
   },
   "last_error": {
    "codes": [],
-   "ended": "2026-10-17T23:53:16Z",
+   "ended": "2026-10-18T00:42:34Z",
    "failed_batches": 6,
-   "run": "gh-39078861374-1",
-   "stop": "budget-time"
+   "run": "gh-39082604060-1",
+   "stop": "errors"
   },
   "state": "idle",
   "trigger": {
    "cadence_seconds": 3600,
    "kind": "scheduled",
    "provenance": "dispatcher-declared",
-   "scheduled_at": "2026-10-17T23:23:49.780Z"
+   "scheduled_at": "2026-10-18T00:23:49.780Z"
   }
  }
 }
