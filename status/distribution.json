@@ -6,13 +6,13 @@
  },
  "chain": {
   "decisions": 52350,
-  "hash12": "90eafe047b48",
-  "seq": 84800
+  "hash12": "eaab67693a5b",
+  "seq": 84801
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
   "list_price_usd_total": 291.8735,
-  "runs": 56
+  "runs": 57
  },
  "findings": {
   "dist-contradiction": 1121,
@@ -22,45 +22,6 @@
   "dist-release-mismatch": 16829
  },
  "last_runs": [
-  {
-   "calls": 55,
-   "completed_by_kind": {
-    "element": 0,
-    "figure": 0,
-    "snippet": 104
-   },
-   "completed_per_minute": 16.889,
-   "config_key": "e1a7dc2a567c23b9",
-   "decided": 106,
-   "elapsed_seconds": 369.465,
-   "elapsed_seconds_by_kind": {
-    "snippet": 367.891
-   },
-   "ended": "2026-10-18T10:30:46Z",
-   "error_diagnostics": {},
-   "eta_seconds": null,
-   "failed_batches": 1,
-   "findings": 7,
-   "list_price_usd": 1.249075,
-   "profiles": {
-    "leo": 53,
-    "neo": 1
-   },
-   "remaining": 30494,
-   "run": "gh-39119085330-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "started": "2026-10-18T10:24:37Z",
-   "stop": "exhausted",
-   "trigger": {
-    "cadence_seconds": 3600,
-    "kind": "scheduled",
-    "provenance": "dispatcher-declared",
-    "scheduled_at": "2026-10-18T10:23:49.780Z"
-   }
-  },
   {
    "calls": 17,
    "completed_by_kind": {
@@ -415,6 +376,44 @@
     "provenance": "github-event",
     "scheduled_at": null
    }
+  },
+  {
+   "calls": 2,
+   "completed_by_kind": {
+    "element": 0,
+    "figure": 0,
+    "snippet": 0
+   },
+   "completed_per_minute": 0.0,
+   "config_key": "e1a7dc2a567c23b9",
+   "decided": 0,
+   "elapsed_seconds": 0.091,
+   "elapsed_seconds_by_kind": {
+    "element": null,
+    "figure": 0.036,
+    "snippet": 0.038
+   },
+   "ended": "2026-10-18T19:24:42Z",
+   "error_diagnostics": {},
+   "eta_seconds": null,
+   "failed_batches": 0,
+   "findings": 0,
+   "list_price_usd": 0.0,
+   "profiles": {},
+   "remaining": 28388,
+   "run": "gh-39158579836-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "started": "2026-10-18T19:24:42Z",
+   "stop": "exhausted",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-18T19:23:49.780Z"
+   }
   }
  ],
  "performance": {
@@ -422,7 +421,7 @@
    "confidence": null,
    "eta_seconds": null,
    "range_seconds": null,
-   "sample_count": 0
+   "sample_count": 10
   },
   "basis": "active median and scheduled calendar median of successful same-config runs; low-confidence/provisional at 1–2 samples per remaining kind, stable/high-confidence at 3+",
   "by_kind": {
@@ -439,7 +438,7 @@
      "confidence": null,
      "eta_seconds": null,
      "range_seconds": null,
-     "sample_count": 0,
+     "sample_count": 9,
      "yield_per_hour": null
     }
    },
@@ -456,25 +455,31 @@
      "confidence": null,
      "eta_seconds": null,
      "range_seconds": null,
-     "sample_count": 0,
+     "sample_count": 9,
      "yield_per_hour": null
     }
    },
    "snippet": {
     "active": {
-     "confidence": null,
-     "eta_seconds": null,
-     "range_seconds": null,
-     "sample_count": 0,
-     "throughput_per_minute": null
+     "confidence": "stable",
+     "eta_seconds": 37943.6,
+     "range_seconds": [
+      20760.7,
+      65385.1
+     ],
+     "sample_count": 10,
+     "throughput_per_minute": 18.071
     },
     "remaining": 11428,
     "scheduled": {
-     "confidence": null,
-     "eta_seconds": null,
-     "range_seconds": null,
-     "sample_count": 0,
-     "yield_per_hour": null
+     "confidence": "stable",
+     "eta_seconds": 80353.1,
+     "range_seconds": [
+      49687.0,
+      138989.2
+     ],
+     "sample_count": 9,
+     "yield_per_hour": 512.0
     }
    }
   },
@@ -484,7 +489,7 @@
    "confidence": null,
    "eta_seconds": null,
    "range_seconds": null,
-   "sample_count": 0
+   "sample_count": 9
   },
   "stable_samples_per_kind": 3
  },
@@ -519,7 +524,7 @@
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-18T19:21:46Z",
+ "updated": "2026-10-18T19:24:42Z",
  "worker": {
   "config": {
    "batch": {
@@ -534,12 +539,12 @@
    },
    "call_timeout_seconds": 300,
    "effort": "low",
-   "external_call_concurrency": 4,
-   "key": "0020929a81cb4dd3",
+   "external_call_concurrency": 2,
+   "key": "e1a7dc2a567c23b9",
    "kinds": [
-    "element",
+    "snippet",
     "figure",
-    "snippet"
+    "element"
    ],
    "max_prompt_bytes": 40000,
    "model": "gemini-3.8-flash",
@@ -550,20 +555,20 @@
   },
   "last_error": {
    "codes": [],
-   "elapsed_seconds": 360.831,
-   "ended": "2026-10-18T19:21:46Z",
-   "failed_batches": 2,
-   "reason": "error-threshold",
-   "run": "gh-39157881723-1",
-   "started": "2026-10-18T19:15:45Z",
-   "stop": "errors"
+   "elapsed_seconds": 0.091,
+   "ended": "2026-10-18T19:24:42Z",
+   "failed_batches": 0,
+   "reason": "provider-capacity-exhausted",
+   "run": "gh-39158579836-1",
+   "started": "2026-10-18T19:24:42Z",
+   "stop": "exhausted"
   },
   "state": "idle",
   "trigger": {
-   "cadence_seconds": null,
-   "kind": "requested",
-   "provenance": "github-event",
-   "scheduled_at": null
+   "cadence_seconds": 3600,
+   "kind": "scheduled",
+   "provenance": "dispatcher-declared",
+   "scheduled_at": "2026-10-18T19:23:49.780Z"
   }
  }
 }
