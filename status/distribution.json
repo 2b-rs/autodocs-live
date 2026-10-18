@@ -5,59 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 49665,
-  "hash12": "bc5e70b63180",
-  "seq": 81788
+  "decisions": 49801,
+  "hash12": "34953fdb9013",
+  "seq": 81985
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 266.3812,
-  "runs": 43
+  "list_price_usd_total": 267.3886,
+  "runs": 44
  },
  "findings": {
   "dist-contradiction": 1068,
   "dist-duplicate-decision": 111,
-  "dist-effect-inconsistent": 7919,
-  "dist-relation-conflict": 6158,
+  "dist-effect-inconsistent": 7924,
+  "dist-relation-conflict": 6213,
   "dist-release-mismatch": 16824
  },
  "last_runs": [
-  {
-   "calls": 6,
-   "completed_by_kind": {
-    "element": 0,
-    "figure": 0,
-    "snippet": 0
-   },
-   "completed_per_minute": 0.0,
-   "config_key": "e1a7dc2a567c23b9",
-   "decided": 0,
-   "elapsed_seconds": 1080.08,
-   "elapsed_seconds_by_kind": {
-    "snippet": 1080.041
-   },
-   "ended": "2026-10-18T00:42:34Z",
-   "error_diagnostics": {},
-   "eta_seconds": null,
-   "failed_batches": 6,
-   "findings": 0,
-   "list_price_usd": 0.0,
-   "profiles": {},
-   "remaining": 33358,
-   "run": "gh-39082604060-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "started": "2026-10-18T00:24:34Z",
-   "stop": "errors",
-   "trigger": {
-    "cadence_seconds": 3600,
-    "kind": "scheduled",
-    "provenance": "dispatcher-declared",
-    "scheduled_at": "2026-10-18T00:23:49.780Z"
-   }
-  },
   {
    "calls": 5,
    "completed_by_kind": {
@@ -402,6 +366,45 @@
     "provenance": "dispatcher-declared",
     "scheduled_at": "2026-10-18T06:23:49.780Z"
    }
+  },
+  {
+   "calls": 42,
+   "completed_by_kind": {
+    "element": 0,
+    "figure": 0,
+    "snippet": 136
+   },
+   "completed_per_minute": 22.212,
+   "config_key": "e1a7dc2a567c23b9",
+   "decided": 136,
+   "elapsed_seconds": 367.363,
+   "elapsed_seconds_by_kind": {
+    "snippet": 365.719
+   },
+   "ended": "2026-10-18T07:30:45Z",
+   "error_diagnostics": {},
+   "eta_seconds": null,
+   "failed_batches": 1,
+   "findings": 60,
+   "list_price_usd": 1.007323,
+   "profiles": {
+    "leo": 40,
+    "neo": 1
+   },
+   "remaining": 30925,
+   "run": "gh-39107504603-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "started": "2026-10-18T07:24:37Z",
+   "stop": "exhausted",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-18T07:23:49.780Z"
+   }
   }
  ],
  "performance": {
@@ -450,21 +453,21 @@
    "snippet": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 55942.0,
+     "eta_seconds": 55400.9,
      "range_seconds": [
-      25542.1,
-      80444.1
+      25295.0,
+      79666.0
      ],
      "sample_count": 8,
      "throughput_per_minute": 15.08
     },
-    "remaining": 14060,
+    "remaining": 13924,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 105450.0,
+     "eta_seconds": 104430.0,
      "range_seconds": [
-      61130.4,
-      171000.0
+      60539.1,
+      169345.9
      ],
      "sample_count": 7,
      "yield_per_hour": 480.0
@@ -492,13 +495,13 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 10215,
+    "done": 10351,
     "planned": 24275
    }
   },
-  "done": 10215,
-  "progress": 0.2475,
-  "remaining": 31061,
+  "done": 10351,
+  "progress": 0.2508,
+  "remaining": 30925,
   "total": 41276
  },
  "profiles": {
@@ -507,12 +510,12 @@
    "needs_login": false
   },
   "neo": {
-   "cooldown_until": "2026-10-18T06:35:43Z",
+   "cooldown_until": "2026-10-18T07:35:38Z",
    "needs_login": false
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-18T06:30:52Z",
+ "updated": "2026-10-18T07:30:45Z",
  "worker": {
   "config": {
    "batch": {
@@ -543,12 +546,12 @@
   },
   "last_error": {
    "codes": [],
-   "elapsed_seconds": 369.517,
-   "ended": "2026-10-18T06:30:52Z",
+   "elapsed_seconds": 367.363,
+   "ended": "2026-10-18T07:30:45Z",
    "failed_batches": 1,
    "reason": "provider-capacity-exhausted",
-   "run": "gh-39103886145-1",
-   "started": "2026-10-18T06:24:43Z",
+   "run": "gh-39107504603-1",
+   "started": "2026-10-18T07:24:37Z",
    "stop": "exhausted"
   },
   "state": "idle",
@@ -556,7 +559,7 @@
    "cadence_seconds": 3600,
    "kind": "scheduled",
    "provenance": "dispatcher-declared",
-   "scheduled_at": "2026-10-18T06:23:49.780Z"
+   "scheduled_at": "2026-10-18T07:23:49.780Z"
   }
  }
 }
