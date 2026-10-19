@@ -1,15 +1,15 @@
 {
- "at": "2026-10-19T19:53:44Z",
+ "at": "2026-10-19T20:55:45Z",
  "basis": "4b04f6f35911",
  "chain": "distribution",
- "hash": "c296511c624e7f474688b378ec025d8373a3e4c0b3d381f82c61223b68c51da0",
- "hash12": "c296511c624e",
- "head_of": 87547,
+ "hash": "f58b808e1a9e468d9bbb94e6997a198e119889c51ebed3e1fa15eab9a0f65651",
+ "hash12": "f58b808e1a9e",
+ "head_of": 87717,
  "reason": {
   "kind": "distribution",
-  "ref": "gh-39310641647-1"
+  "ref": "gh-39318957469-1"
  },
  "schema": "live-pointer@v1",
- "segment": "log/00087442.jsonl",
- "seq": 87547
+ "segment": "log/00087548.jsonl",
+ "seq": 87717
 }
