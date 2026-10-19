@@ -5,64 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 53982,
-  "hash12": "e7aff3014c05",
-  "seq": 86760
+  "decisions": 54023,
+  "hash12": "185ba42b29b0",
+  "seq": 86809
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 311.4823,
-  "runs": 73
+  "list_price_usd_total": 312.0022,
+  "runs": 74
  },
  "findings": {
-  "dist-contradiction": 1155,
+  "dist-contradiction": 1156,
   "dist-duplicate-decision": 125,
-  "dist-effect-inconsistent": 8103,
-  "dist-relation-conflict": 6477,
+  "dist-effect-inconsistent": 8104,
+  "dist-relation-conflict": 6482,
   "dist-release-mismatch": 16845
  },
  "last_runs": [
-  {
-   "calls": 5,
-   "completed_by_kind": {
-    "element": 0,
-    "figure": 0,
-    "snippet": 4
-   },
-   "completed_per_minute": 0.64,
-   "config_key": "e1a7dc2a567c23b9",
-   "decided": 4,
-   "elapsed_seconds": 375.23,
-   "elapsed_seconds_by_kind": {
-    "element": 360.01,
-    "figure": 360.016,
-    "snippet": 12.118
-   },
-   "ended": "2026-10-19T02:30:53Z",
-   "error_diagnostics": {},
-   "eta_seconds": null,
-   "failed_batches": 2,
-   "findings": 0,
-   "list_price_usd": 0.043669,
-   "profiles": {
-    "leo": 1,
-    "neo": 3
-   },
-   "remaining": 27607,
-   "run": "gh-39189764465-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "started": "2026-10-19T02:24:37Z",
-   "stop": "exhausted",
-   "trigger": {
-    "cadence_seconds": 3600,
-    "kind": "scheduled",
-    "provenance": "dispatcher-declared",
-    "scheduled_at": "2026-10-19T02:23:49.780Z"
-   }
-  },
   {
    "calls": 28,
    "completed_by_kind": {
@@ -445,80 +404,123 @@
     "provenance": "dispatcher-declared",
     "scheduled_at": "2026-10-19T11:23:49.780Z"
    }
+  },
+  {
+   "calls": 24,
+   "completed_by_kind": {
+    "element": 6,
+    "figure": 11,
+    "snippet": 24
+   },
+   "completed_per_minute": 1.454,
+   "config_key": "e1a7dc2a567c23b9",
+   "decided": 41,
+   "elapsed_seconds": 1691.974,
+   "elapsed_seconds_by_kind": {
+    "element": 695.496,
+    "figure": 1429.746,
+    "snippet": 761.094
+   },
+   "ended": "2026-10-19T12:52:49Z",
+   "error_diagnostics": {
+    "profile-temporarily-unavailable": 238
+   },
+   "eta_seconds": 1102630.5,
+   "failed_batches": 5,
+   "findings": 7,
+   "list_price_usd": 0.519917,
+   "profiles": {
+    "leo": 4,
+    "neo": 20
+   },
+   "remaining": 26719,
+   "run": "gh-39251737121-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "started": "2026-10-19T12:24:37Z",
+   "stop": "budget-time",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-19T12:23:49.780Z"
+   }
   }
  ],
  "performance": {
   "active": {
    "confidence": "stable",
-   "eta_seconds": 312823.4,
+   "eta_seconds": 322383.6,
    "range_seconds": [
-    70417.9,
-    3371005.0
+    70320.9,
+    4036630.4
    ],
-   "sample_count": 15
+   "sample_count": 16
   },
   "basis": "active median and scheduled calendar median of successful same-config runs; low-confidence/provisional at 1–2 samples per remaining kind, stable/high-confidence at 3+",
   "by_kind": {
    "element": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 64788.3,
+     "eta_seconds": 67289.5,
      "range_seconds": [
-      24791.2,
-      1386369.3
+      24766.6,
+      1384996.2
      ],
-     "sample_count": 16,
-     "throughput_per_minute": 5.61
+     "sample_count": 17,
+     "throughput_per_minute": 5.396
     },
-    "remaining": 6058,
+    "remaining": 6052,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 2180880.0,
+     "eta_seconds": 2178720.0,
      "range_seconds": null,
-     "sample_count": 25,
+     "sample_count": 26,
      "yield_per_hour": 10.0
     }
    },
    "figure": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 199770.1,
+     "eta_seconds": 206497.5,
      "range_seconds": [
-      26103.2,
-      622449.9
+      26074.3,
+      1292490.4
      ],
-     "sample_count": 15,
-     "throughput_per_minute": 2.99
+     "sample_count": 16,
+     "throughput_per_minute": 2.889
     },
-    "remaining": 9955,
+    "remaining": 9944,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 1493250.0,
+     "eta_seconds": 1556452.2,
      "range_seconds": null,
-     "sample_count": 25,
-     "yield_per_hour": 24.0
+     "sample_count": 26,
+     "yield_per_hour": 23.0
     }
    },
    "snippet": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 48265.0,
+     "eta_seconds": 48596.5,
      "range_seconds": [
-      19523.5,
-      1362185.8
+      19479.9,
+      1359143.8
      ],
-     "sample_count": 39,
-     "throughput_per_minute": 13.36
+     "sample_count": 40,
+     "throughput_per_minute": 13.239
     },
-    "remaining": 10747,
+    "remaining": 10723,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 372011.5,
+     "eta_seconds": 371180.8,
      "range_seconds": [
-      46726.1,
-      12896400.0
+      46621.7,
+      12867600.0
      ],
-     "sample_count": 38,
+     "sample_count": 39,
      "yield_per_hour": 104.0
     }
    }
@@ -527,44 +529,44 @@
   "scheduled": {
    "cadence_seconds": 3600,
    "confidence": "stable",
-   "eta_seconds": 2180880.0,
+   "eta_seconds": 2178720.0,
    "range_seconds": null,
-   "sample_count": 25
+   "sample_count": 26
   },
   "stable_samples_per_kind": 3
  },
  "plan": {
   "by_kind": {
    "element": {
-    "done": 305,
+    "done": 311,
     "planned": 6363
    },
    "figure": {
-    "done": 683,
+    "done": 694,
     "planned": 10638
    },
    "snippet": {
-    "done": 13528,
+    "done": 13552,
     "planned": 24275
    }
   },
-  "done": 14516,
-  "progress": 0.3517,
-  "remaining": 26760,
+  "done": 14557,
+  "progress": 0.3527,
+  "remaining": 26719,
   "total": 41276
  },
  "profiles": {
   "leo": {
-   "cooldown_until": "2026-10-19T11:57:48Z",
+   "cooldown_until": "2026-10-19T12:57:47Z",
    "needs_login": false
   },
   "neo": {
-   "cooldown_until": "2026-10-19T11:58:42Z",
+   "cooldown_until": null,
    "needs_login": false
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-19T11:53:45Z",
+ "updated": "2026-10-19T12:52:49Z",
  "worker": {
   "config": {
    "batch": {
@@ -608,7 +610,7 @@
    "cadence_seconds": 3600,
    "kind": "scheduled",
    "provenance": "dispatcher-declared",
-   "scheduled_at": "2026-10-19T11:23:49.780Z"
+   "scheduled_at": "2026-10-19T12:23:49.780Z"
   }
  }
 }
