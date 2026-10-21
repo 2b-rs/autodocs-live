@@ -5,66 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 58412,
-  "hash12": "8e068ec89845",
-  "seq": 92980
+  "decisions": 58430,
+  "hash12": "dff187dc29be",
+  "seq": 93006
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 355.0902,
-  "runs": 129
+  "list_price_usd_total": 355.2844,
+  "runs": 130
  },
  "findings": {
-  "dist-contradiction": 1520,
+  "dist-contradiction": 1521,
   "dist-duplicate-decision": 166,
-  "dist-effect-inconsistent": 8637,
-  "dist-relation-conflict": 7220,
+  "dist-effect-inconsistent": 8641,
+  "dist-relation-conflict": 7222,
   "dist-release-mismatch": 16896
  },
  "last_runs": [
-  {
-   "calls": 42,
-   "completed_by_kind": {
-    "element": 11,
-    "figure": 33,
-    "snippet": 35
-   },
-   "completed_per_minute": 2.697,
-   "config_key": "e1a7dc2a567c23b9",
-   "decided": 79,
-   "elapsed_seconds": 1757.322,
-   "elapsed_seconds_by_kind": {
-    "element": 662.335,
-    "figure": 1148.627,
-    "snippet": 1062.4
-   },
-   "ended": "2026-10-21T10:53:52Z",
-   "error_diagnostics": {
-    "profile-temporarily-unavailable": 54
-   },
-   "eta_seconds": 505574.7,
-   "failed_batches": 5,
-   "findings": 12,
-   "list_price_usd": 0.808083,
-   "profiles": {
-    "leo": 28,
-    "neo": 14
-   },
-   "remaining": 22728,
-   "run": "gh-39584288978-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "started": "2026-10-21T10:24:35Z",
-   "stop": "budget-time",
-   "trigger": {
-    "cadence_seconds": 3600,
-    "kind": "scheduled",
-    "provenance": "dispatcher-declared",
-    "scheduled_at": "2026-10-21T10:23:49.780Z"
-   }
-  },
   {
    "calls": 41,
    "completed_by_kind": {
@@ -451,15 +408,58 @@
     "provenance": "dispatcher-declared",
     "scheduled_at": "2026-10-21T19:23:49.780Z"
    }
+  },
+  {
+   "calls": 15,
+   "completed_by_kind": {
+    "element": 2,
+    "figure": 0,
+    "snippet": 16
+   },
+   "completed_per_minute": 0.622,
+   "config_key": "e1a7dc2a567c23b9",
+   "decided": 18,
+   "elapsed_seconds": 1735.677,
+   "elapsed_seconds_by_kind": {
+    "element": 1079.154,
+    "figure": 1419.736,
+    "snippet": 620.603
+   },
+   "ended": "2026-10-21T20:53:30Z",
+   "error_diagnostics": {
+    "profile-temporarily-unavailable": 134
+   },
+   "eta_seconds": 2155806.7,
+   "failed_batches": 6,
+   "findings": 7,
+   "list_price_usd": 0.194241,
+   "profiles": {
+    "leo": 5,
+    "neo": 10
+   },
+   "remaining": 22357,
+   "run": "gh-39669941877-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "started": "2026-10-21T20:24:35Z",
+   "stop": "budget-time",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-21T20:23:49.780Z"
+   }
   }
  ],
  "performance": {
   "active": {
    "confidence": "stable",
-   "eta_seconds": 710220.6,
+   "eta_seconds": 714796.8,
    "range_seconds": [
-    58880.9,
-    10067196.3
+    58843.7,
+    10059717.4
    ],
    "sample_count": 62
   },
@@ -468,21 +468,21 @@
    "element": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 245409.3,
+     "eta_seconds": 248600.2,
      "range_seconds": [
-      20748.0,
-      4911121.4
+      20739.8,
+      4909184.1
      ],
-     "sample_count": 72,
-     "throughput_per_minute": 1.24
+     "sample_count": 73,
+     "throughput_per_minute": 1.223
     },
-    "remaining": 5070,
+    "remaining": 5068,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 1404000.0,
+     "eta_seconds": 1459584.0,
      "range_seconds": null,
-     "sample_count": 81,
-     "yield_per_hour": 13.0
+     "sample_count": 82,
+     "yield_per_hour": 12.5
     }
    },
    "figure": {
@@ -499,32 +499,32 @@
     "remaining": 8313,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 1197072.0,
+     "eta_seconds": 1221502.0,
      "range_seconds": null,
-     "sample_count": 81,
-     "yield_per_hour": 25.0
+     "sample_count": 82,
+     "yield_per_hour": 24.5
     }
    },
    "snippet": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 198851.1,
+     "eta_seconds": 200236.3,
      "range_seconds": [
-      16335.3,
-      3114370.2
+      16306.3,
+      3108828.6
      ],
-     "sample_count": 95,
-     "throughput_per_minute": 2.713
+     "sample_count": 96,
+     "throughput_per_minute": 2.69
     },
-    "remaining": 8992,
+    "remaining": 8976,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 924891.4,
+     "eta_seconds": 923245.7,
      "range_seconds": [
-      39095.7,
-      10790400.0
+      39026.1,
+      10771200.0
      ],
-     "sample_count": 94,
+     "sample_count": 95,
      "yield_per_hour": 35.0
     }
    }
@@ -533,16 +533,16 @@
   "scheduled": {
    "cadence_seconds": 3600,
    "confidence": "stable",
-   "eta_seconds": 1404000.0,
+   "eta_seconds": 1459584.0,
    "range_seconds": null,
-   "sample_count": 81
+   "sample_count": 82
   },
   "stable_samples_per_kind": 3
  },
  "plan": {
   "by_kind": {
    "element": {
-    "done": 1293,
+    "done": 1295,
     "planned": 6363
    },
    "figure": {
@@ -550,27 +550,27 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 15283,
+    "done": 15299,
     "planned": 24275
    }
   },
-  "done": 18901,
-  "progress": 0.4579,
-  "remaining": 22375,
+  "done": 18919,
+  "progress": 0.4584,
+  "remaining": 22357,
   "total": 41276
  },
  "profiles": {
   "leo": {
-   "cooldown_until": null,
+   "cooldown_until": "2026-10-21T20:57:48Z",
    "needs_login": false
   },
   "neo": {
-   "cooldown_until": "2026-10-21T20:00:14Z",
+   "cooldown_until": "2026-10-21T20:58:28Z",
    "needs_login": false
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-21T19:55:16Z",
+ "updated": "2026-10-21T20:53:30Z",
  "worker": {
   "config": {
    "batch": {
@@ -614,7 +614,7 @@
    "cadence_seconds": 3600,
    "kind": "scheduled",
    "provenance": "dispatcher-declared",
-   "scheduled_at": "2026-10-21T19:23:49.780Z"
+   "scheduled_at": "2026-10-21T20:23:49.780Z"
   }
  }
 }
