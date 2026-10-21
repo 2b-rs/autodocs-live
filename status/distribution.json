@@ -5,66 +5,23 @@
   "source_commit": "cee99ee2ce79"
  },
  "chain": {
-  "decisions": 57961,
-  "hash12": "76878d97106b",
-  "seq": 92383
+  "decisions": 57974,
+  "hash12": "b4b42e7b8095",
+  "seq": 92401
  },
  "cost": {
   "currency": "USD, API-Listenpreise",
-  "list_price_usd_total": 350.5001,
-  "runs": 118
+  "list_price_usd_total": 350.6446,
+  "runs": 119
  },
  "findings": {
   "dist-contradiction": 1494,
   "dist-duplicate-decision": 160,
-  "dist-effect-inconsistent": 8587,
-  "dist-relation-conflict": 7167,
+  "dist-effect-inconsistent": 8588,
+  "dist-relation-conflict": 7170,
   "dist-release-mismatch": 16896
  },
  "last_runs": [
-  {
-   "calls": 36,
-   "completed_by_kind": {
-    "element": 15,
-    "figure": 31,
-    "snippet": 24
-   },
-   "completed_per_minute": 2.356,
-   "config_key": "e1a7dc2a567c23b9",
-   "decided": 73,
-   "elapsed_seconds": 1782.867,
-   "elapsed_seconds_by_kind": {
-    "element": 1016.183,
-    "figure": 830.213,
-    "snippet": 1428.11
-   },
-   "ended": "2026-10-20T23:54:27Z",
-   "error_diagnostics": {
-    "profile-temporarily-unavailable": 26
-   },
-   "eta_seconds": 603780.8,
-   "failed_batches": 5,
-   "findings": 30,
-   "list_price_usd": 0.700194,
-   "profiles": {
-    "leo": 13,
-    "neo": 23
-   },
-   "remaining": 23706,
-   "run": "gh-39514739312-1",
-   "skipped_units": {
-    "missing": 0,
-    "oversize": 0
-   },
-   "started": "2026-10-20T23:24:44Z",
-   "stop": "budget-time",
-   "trigger": {
-    "cadence_seconds": 3600,
-    "kind": "scheduled",
-    "provenance": "dispatcher-declared",
-    "scheduled_at": "2026-10-20T23:23:49.780Z"
-   }
-  },
   {
    "calls": 24,
    "completed_by_kind": {
@@ -451,15 +408,58 @@
     "provenance": "dispatcher-declared",
     "scheduled_at": "2026-10-21T08:23:49.780Z"
    }
+  },
+  {
+   "calls": 13,
+   "completed_by_kind": {
+    "element": 5,
+    "figure": 0,
+    "snippet": 8
+   },
+   "completed_per_minute": 0.451,
+   "config_key": "e1a7dc2a567c23b9",
+   "decided": 13,
+   "elapsed_seconds": 1728.478,
+   "elapsed_seconds_by_kind": {
+    "element": 617.806,
+    "figure": 1119.992,
+    "snippet": 1352.836
+   },
+   "ended": "2026-10-21T09:53:21Z",
+   "error_diagnostics": {
+    "profile-temporarily-unavailable": 16
+   },
+   "eta_seconds": 3032416.0,
+   "failed_batches": 6,
+   "findings": 4,
+   "list_price_usd": 0.144589,
+   "profiles": {
+    "leo": 4,
+    "neo": 9
+   },
+   "remaining": 22807,
+   "run": "gh-39576633424-1",
+   "skipped_units": {
+    "missing": 0,
+    "oversize": 0
+   },
+   "started": "2026-10-21T09:24:32Z",
+   "stop": "budget-time",
+   "trigger": {
+    "cadence_seconds": 3600,
+    "kind": "scheduled",
+    "provenance": "dispatcher-declared",
+    "scheduled_at": "2026-10-21T09:23:49.780Z"
+   }
   }
  ],
  "performance": {
   "active": {
    "confidence": "stable",
-   "eta_seconds": 632512.1,
+   "eta_seconds": 633443.0,
    "range_seconds": [
-    59985.0,
-    10006728.9
+    59950.0,
+    9999114.8
    ],
    "sample_count": 56
   },
@@ -468,20 +468,20 @@
    "element": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 222734.4,
+     "eta_seconds": 222536.6,
      "range_seconds": [
-      21075.3,
-      4988614.5
+      21054.9,
+      4983771.1
      ],
-     "sample_count": 61,
+     "sample_count": 62,
      "throughput_per_minute": 1.387
     },
-    "remaining": 5150,
+    "remaining": 5145,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 1324285.7,
+     "eta_seconds": 1323000.0,
      "range_seconds": null,
-     "sample_count": 70,
+     "sample_count": 71,
      "yield_per_hour": 14.0
     }
    },
@@ -499,33 +499,33 @@
     "remaining": 8454,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 1148467.9,
+     "eta_seconds": 1170553.8,
      "range_seconds": null,
-     "sample_count": 70,
-     "yield_per_hour": 26.5
+     "sample_count": 71,
+     "yield_per_hour": 26.0
     }
    },
    "snippet": {
     "active": {
      "confidence": "stable",
-     "eta_seconds": 167900.7,
+     "eta_seconds": 169029.4,
      "range_seconds": [
-      16742.3,
-      3191952.4
+      16727.7,
+      3189181.6
      ],
-     "sample_count": 84,
-     "throughput_per_minute": 3.293
+     "sample_count": 85,
+     "throughput_per_minute": 3.269
     },
-    "remaining": 9216,
+    "remaining": 9208,
     "scheduled": {
      "confidence": "stable",
-     "eta_seconds": 850707.7,
+     "eta_seconds": 883968.0,
      "range_seconds": [
-      40069.6,
-      11059200.0
+      40034.8,
+      11049600.0
      ],
-     "sample_count": 83,
-     "yield_per_hour": 39.0
+     "sample_count": 84,
+     "yield_per_hour": 37.5
     }
    }
   },
@@ -533,16 +533,16 @@
   "scheduled": {
    "cadence_seconds": 3600,
    "confidence": "stable",
-   "eta_seconds": 1324285.7,
+   "eta_seconds": 1323000.0,
    "range_seconds": null,
-   "sample_count": 70
+   "sample_count": 71
   },
   "stable_samples_per_kind": 3
  },
  "plan": {
   "by_kind": {
    "element": {
-    "done": 1213,
+    "done": 1218,
     "planned": 6363
    },
    "figure": {
@@ -550,27 +550,27 @@
     "planned": 10638
    },
    "snippet": {
-    "done": 15059,
+    "done": 15067,
     "planned": 24275
    }
   },
-  "done": 18456,
-  "progress": 0.4471,
-  "remaining": 22820,
+  "done": 18469,
+  "progress": 0.4475,
+  "remaining": 22807,
   "total": 41276
  },
  "profiles": {
   "leo": {
-   "cooldown_until": null,
+   "cooldown_until": "2026-10-21T09:57:39Z",
    "needs_login": false
   },
   "neo": {
-   "cooldown_until": "2026-10-21T09:00:02Z",
+   "cooldown_until": "2026-10-21T09:58:19Z",
    "needs_login": false
   }
  },
  "schema": "live-status@v1",
- "updated": "2026-10-21T08:55:04Z",
+ "updated": "2026-10-21T09:53:21Z",
  "worker": {
   "config": {
    "batch": {
@@ -614,7 +614,7 @@
    "cadence_seconds": 3600,
    "kind": "scheduled",
    "provenance": "dispatcher-declared",
-   "scheduled_at": "2026-10-21T08:23:49.780Z"
+   "scheduled_at": "2026-10-21T09:23:49.780Z"
   }
  }
 }
